@@ -29,7 +29,7 @@ export function Navbar() {
         <div className="nav-actions desktop-only">
           <motion.button
             className="btn btn-primary"
-            onClick={openForm}
+            onClick={() => openForm()}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             aria-label="Add new expense"
@@ -42,7 +42,7 @@ export function Navbar() {
         <div className="mobile-only">
           <motion.button
             className="btn btn-primary btn-icon"
-            onClick={openForm}
+            onClick={() => openForm()}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             aria-label="Add new expense"
