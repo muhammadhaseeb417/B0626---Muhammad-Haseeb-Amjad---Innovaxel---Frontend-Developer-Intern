@@ -118,7 +118,7 @@ export function CategoryChart() {
           <Pie
             data={data}
             cx="50%"
-            cy="45%"
+            cy="50%"
             innerRadius={70}
             outerRadius={110}
             paddingAngle={3}
