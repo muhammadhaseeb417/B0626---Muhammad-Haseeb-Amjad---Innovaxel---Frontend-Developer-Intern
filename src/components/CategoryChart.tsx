@@ -113,14 +113,14 @@ export function CategoryChart() {
     >
       <div className="chart-card-title">Category Breakdown</div>
       <div className="chart-card-subtitle">Spending distribution by category</div>
-      <ResponsiveContainer width="100%" height={300}>
-        <PieChart>
+      <ResponsiveContainer width="100%" height={320}>
+        <PieChart margin={{ top: 20, right: 20, bottom: 30, left: 20 }}>
           <Pie
             data={data}
             cx="50%"
             cy="50%"
-            innerRadius={70}
-            outerRadius={110}
+            innerRadius={65}
+            outerRadius={95}
             paddingAngle={3}
             dataKey="value"
             stroke="none"
@@ -132,7 +132,7 @@ export function CategoryChart() {
             ))}
           </Pie>
           <Tooltip content={<CustomTooltip />} />
-          <Legend content={<CustomLegend />} />
+          <Legend content={<CustomLegend />} wrapperStyle={{ bottom: 0 }} />
         </PieChart>
       </ResponsiveContainer>
     </motion.div>
