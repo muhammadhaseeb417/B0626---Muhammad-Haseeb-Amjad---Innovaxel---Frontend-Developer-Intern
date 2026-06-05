@@ -2,6 +2,8 @@
 
 A premium fintech-inspired personal expense tracking web application built with modern technologies. Track spending, analyze trends, and take control of your finances with beautiful analytics and charts.
 
+**Live Demo:** [https://spendwise-expense-track.netlify.app/](https://spendwise-expense-track.netlify.app/)
+
 ## Features
 
 - **Dashboard Analytics** — Summary cards with trend indicators for Total Expenses, Monthly Spending, Top Category, and Transaction Count
